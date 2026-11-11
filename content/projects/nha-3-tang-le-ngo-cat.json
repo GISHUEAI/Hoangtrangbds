@@ -1,0 +1,17 @@
+{
+  "slug": "nha-3-tang-le-ngo-cat",
+  "order": 1,
+  "featured": true,
+  "published": true,
+  "customPage": true,
+  "name": "Nhà 3 tầng Lê Ngô Cát",
+  "tagline": "Gara ô tô riêng · Đã hoàn công · Cách đường chính chưa đến 10m",
+  "type": "Nhà phố",
+  "status": "Đang mở bán",
+  "location": { "district": "Phường Thủy Xuân", "city": "Huế", "address": "Đường Lê Ngô Cát, P. Thủy Xuân, Huế", "lat": 16.43639, "lng": 107.57806 },
+  "priceFrom": null,
+  "priceUnit": "tỷ",
+  "areaFrom": 115,
+  "areaTo": 115,
+  "cover": "/du-an/nha-3-tang-le-ngo-cat/assets/25563950384ad0924025ad7b90ad2b83.jpg"
+}

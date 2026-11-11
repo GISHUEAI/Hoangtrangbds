@@ -15,7 +15,7 @@
         (!$("fType").value || d.type === $("fType").value) &&
         (!$("fStatus").value || d.status === $("fStatus").value) &&
         (!$("fCity").value || d.city === $("fCity").value) &&
-        (!$("fPrice").value || (price >= lo && price < hi));
+        (!$("fPrice").value || !price || (price >= lo && price < hi));
       c.hidden = !ok; if (ok) n++;
     });
     $("count").textContent = `Hiển thị ${n} / ${cards.length} dự án`;

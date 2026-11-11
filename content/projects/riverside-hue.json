@@ -25,24 +25,71 @@
     "/images/riverside-hue/g3.svg"
   ],
   "highlights": [
-    { "label": "Pháp lý", "value": "Sổ hồng lâu dài" },
-    { "label": "Quy mô", "value": "2 tòa · 420 căn" },
-    { "label": "Bàn giao", "value": "Quý IV/2027" },
-    { "label": "Mật độ xây dựng", "value": "32%" }
+    {
+      "label": "Pháp lý",
+      "value": "Sổ hồng lâu dài"
+    },
+    {
+      "label": "Quy mô",
+      "value": "2 tòa · 420 căn"
+    },
+    {
+      "label": "Bàn giao",
+      "value": "Quý IV/2027"
+    },
+    {
+      "label": "Mật độ xây dựng",
+      "value": "32%"
+    }
   ],
   "overview": "Dự án căn hộ ven sông với tầm nhìn mở, thiết kế tối ưu ánh sáng tự nhiên và thông gió. Hệ tiện ích nội khu đầy đủ, kết nối nhanh tới trung tâm thành phố. (Toàn bộ thông tin trong trang này là DỮ LIỆU MẪU để minh họa.)",
-  "amenities": ["Hồ bơi tràn bờ", "Phòng gym", "Công viên ven sông", "Khu vui chơi trẻ em", "Hầm đỗ xe 2 tầng", "An ninh 24/7"],
+  "amenities": [
+    "Hồ bơi tràn bờ",
+    "Phòng gym",
+    "Công viên ven sông",
+    "Khu vui chơi trẻ em",
+    "Hầm đỗ xe 2 tầng",
+    "An ninh 24/7"
+  ],
   "locationPoints": [
-    { "place": "Trung tâm thành phố", "time": "5 phút" },
-    { "place": "Trường học các cấp", "time": "3 phút" },
-    { "place": "Bệnh viện", "time": "7 phút" },
-    { "place": "Sân bay", "time": "25 phút" }
+    {
+      "place": "Trung tâm thành phố",
+      "time": "5 phút"
+    },
+    {
+      "place": "Trường học các cấp",
+      "time": "3 phút"
+    },
+    {
+      "place": "Bệnh viện",
+      "time": "7 phút"
+    },
+    {
+      "place": "Sân bay",
+      "time": "25 phút"
+    }
   ],
   "products": [
-    { "name": "Căn 1PN + 1", "area": "55 m²", "price": "2,1 tỷ" },
-    { "name": "Căn 2PN", "area": "72 m²", "price": "2,8 tỷ" },
-    { "name": "Căn 3PN", "area": "98 m²", "price": "3,9 tỷ" },
-    { "name": "Penthouse", "area": "120 m²", "price": "Liên hệ" }
+    {
+      "name": "Căn 1PN + 1",
+      "area": "55 m²",
+      "price": "2,1 tỷ"
+    },
+    {
+      "name": "Căn 2PN",
+      "area": "72 m²",
+      "price": "2,8 tỷ"
+    },
+    {
+      "name": "Căn 3PN",
+      "area": "98 m²",
+      "price": "3,9 tỷ"
+    },
+    {
+      "name": "Penthouse",
+      "area": "120 m²",
+      "price": "Liên hệ"
+    }
   ],
   "payment": [
     "Đặt cọc 50 triệu/căn",
@@ -50,5 +97,6 @@
     "Ngân hàng hỗ trợ vay 70%, ân hạn gốc 24 tháng",
     "Chiết khấu 5% khi thanh toán sớm"
   ],
-  "videoUrl": ""
+  "videoUrl": "",
+  "published": false
 }

@@ -10,8 +10,8 @@
     "district": "Phú Vang",
     "city": "Huế",
     "address": "Khu dân cư (dữ liệu mẫu), Phú Vang, Huế",
-    "lat": 16.4900,
-    "lng": 107.6800
+    "lat": 16.49,
+    "lng": 107.68
   },
   "priceFrom": 1.2,
   "priceUnit": "tỷ",
@@ -21,21 +21,55 @@
   "cover": "/images/dat-nen-phu-vang/cover.svg",
   "gallery": [],
   "highlights": [
-    { "label": "Pháp lý", "value": "Sổ riêng từng lô" },
-    { "label": "Quy mô", "value": "86 lô" },
-    { "label": "Hạ tầng", "value": "Hoàn thiện 100%" },
-    { "label": "Lộ giới", "value": "13,5 – 19,5 m" }
+    {
+      "label": "Pháp lý",
+      "value": "Sổ riêng từng lô"
+    },
+    {
+      "label": "Quy mô",
+      "value": "86 lô"
+    },
+    {
+      "label": "Hạ tầng",
+      "value": "Hoàn thiện 100%"
+    },
+    {
+      "label": "Lộ giới",
+      "value": "13,5 – 19,5 m"
+    }
   ],
   "overview": "Khu đất nền trong khu dân cư hiện hữu, hạ tầng điện – nước – thoát nước hoàn chỉnh, phù hợp an cư hoặc đầu tư. (Dữ liệu mẫu để minh họa.)",
-  "amenities": ["Công viên nội khu", "Chợ", "Trường mầm non"],
+  "amenities": [
+    "Công viên nội khu",
+    "Chợ",
+    "Trường mầm non"
+  ],
   "locationPoints": [
-    { "place": "Biển Thuận An", "time": "10 phút" },
-    { "place": "Trung tâm thành phố", "time": "15 phút" }
+    {
+      "place": "Biển Thuận An",
+      "time": "10 phút"
+    },
+    {
+      "place": "Trung tâm thành phố",
+      "time": "15 phút"
+    }
   ],
   "products": [
-    { "name": "Lô tiêu chuẩn", "area": "100 m²", "price": "1,2 tỷ" },
-    { "name": "Lô góc", "area": "150 m²", "price": "2,0 tỷ" }
+    {
+      "name": "Lô tiêu chuẩn",
+      "area": "100 m²",
+      "price": "1,2 tỷ"
+    },
+    {
+      "name": "Lô góc",
+      "area": "150 m²",
+      "price": "2,0 tỷ"
+    }
   ],
-  "payment": ["Thanh toán 3 đợt trong 6 tháng", "Hỗ trợ vay 50%"],
-  "videoUrl": ""
+  "payment": [
+    "Thanh toán 3 đợt trong 6 tháng",
+    "Hỗ trợ vay 50%"
+  ],
+  "videoUrl": "",
+  "published": false
 }
