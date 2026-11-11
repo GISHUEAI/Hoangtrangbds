@@ -1,0 +1,17 @@
+{
+  "siteName": "Hoàng Trang Bất động sản",
+  "shortName": "Hoàng Trang",
+  "slogan": "Hoàng Trang Bất động sản – An cư vững chãi, đầu tư an tâm",
+  "description": "Hoàng Trang Bất động sản giới thiệu các dự án chọn lọc: căn hộ, nhà phố, đất nền, biệt thự. Pháp lý minh bạch, giá bán rõ ràng, tư vấn tận tâm.",
+  "domain": "https://hoangtrang-bds.vercel.app",
+  "logo": "/images/logo.jpg",
+  "phones": [
+    { "tel": "0786322868", "display": "0786 322 868" },
+    { "tel": "0886101088", "display": "0886 101 088" }
+  ],
+  "zalo": "0886101088",
+  "email": "",
+  "address": "Thành phố Huế",
+  "formEndpoint": "",
+  "ogImage": "/images/og-default.jpg"
+}

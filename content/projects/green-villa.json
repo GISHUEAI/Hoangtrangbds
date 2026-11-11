@@ -1,0 +1,41 @@
+{
+  "slug": "green-villa",
+  "order": 2,
+  "featured": false,
+  "name": "Green Villa An Vân",
+  "tagline": "Biệt thự vườn – Không gian nghỉ dưỡng cho gia đình",
+  "type": "Biệt thự",
+  "status": "Sắp mở bán",
+  "location": {
+    "district": "Phường An Đông",
+    "city": "Huế",
+    "address": "Khu đô thị mới (dữ liệu mẫu), Huế",
+    "lat": 16.4510,
+    "lng": 107.6200
+  },
+  "priceFrom": 8.5,
+  "priceUnit": "tỷ",
+  "priceNote": "Giá dự kiến, sẽ cập nhật khi mở bán chính thức",
+  "areaFrom": 200,
+  "areaTo": 350,
+  "cover": "/images/green-villa/cover.svg",
+  "gallery": ["/images/green-villa/g1.svg", "/images/green-villa/g2.svg"],
+  "highlights": [
+    { "label": "Pháp lý", "value": "Sổ đỏ từng lô" },
+    { "label": "Quy mô", "value": "64 căn biệt thự" },
+    { "label": "Kết cấu", "value": "1 trệt · 2 lầu" },
+    { "label": "Mặt tiền", "value": "10 – 14 m" }
+  ],
+  "overview": "Quần thể biệt thự vườn thấp tầng, mật độ cây xanh cao, thiết kế hiện đại pha nét kiến trúc nhà vườn Huế. (Dữ liệu mẫu để minh họa.)",
+  "amenities": ["Vườn riêng từng căn", "Clubhouse", "Đường dạo bộ", "Hồ cảnh quan"],
+  "locationPoints": [
+    { "place": "Trung tâm thành phố", "time": "10 phút" },
+    { "place": "Trường quốc tế", "time": "5 phút" }
+  ],
+  "products": [
+    { "name": "Biệt thự đơn lập", "area": "300 m²", "price": "Từ 12 tỷ" },
+    { "name": "Biệt thự song lập", "area": "200 m²", "price": "Từ 8,5 tỷ" }
+  ],
+  "payment": ["Nhận đăng ký giữ chỗ có hoàn lại", "Chính sách chi tiết công bố khi mở bán"],
+  "videoUrl": ""
+}
