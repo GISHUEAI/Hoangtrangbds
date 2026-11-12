@@ -125,6 +125,11 @@ function portal() {
     <span style="flex:1 1 240px"><b style="display:block;color:#F2C14E;font-size:13px;letter-spacing:.1em">VINH DANH · SỔ ĐỎ HUẾ</b><span style="font-size:18px;font-weight:800">1 tuần 4 vụ chốt – Chúc mừng Chuyên gia Trang!</span></span>
     <span style="background:#F2C14E;color:#3E0609;font-weight:800;padding:10px 18px;border-radius:999px">Xem ngay →</span>
   </a>
+  <a href="/tuyen-dung-ctv/" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:0 0 70px;padding:16px 20px;border-radius:16px;background:linear-gradient(135deg,#0A1F5C,#0000FF);color:#fff;text-decoration:none">
+    <img src="/tuyen-dung-ctv/img/hoang-trang-avatar.jpg" alt="" width="64" height="64" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:2px solid #D4A84B">
+    <span style="flex:1 1 240px"><b style="display:block;color:#F3D68A;font-size:13px;letter-spacing:.1em">TUYỂN DỤNG · BÁN NHÀ Ở TP HUẾ</b><span style="font-size:18px;font-weight:800">Cần 20 cộng tác viên – Không cần kinh nghiệm, được đào tạo bài bản</span></span>
+    <span style="background:#D7262E;color:#fff;font-weight:800;padding:10px 18px;border-radius:999px">Đăng ký ngay →</span>
+  </a>
   <section class="filters" aria-label="Bộ lọc">
     <input id="q" type="search" placeholder="Tìm theo tên dự án, khu vực…">
     <select id="fType"><option value="">Tất cả loại hình</option>${opt(uniq(p => p.type))}</select>
@@ -220,6 +225,6 @@ for (const p of projects) {
   else write(`du-an/${p.slug}/index.html`, landing(p));
 }
 write("data/projects.json", JSON.stringify(projects.map(({ slug, name, type, status, location, priceFrom, priceUnit, areaFrom, areaTo, cover, tagline }) => ({ slug, name, type, status, location, priceFrom, priceUnit, areaFrom, areaTo, cover, tagline, url: `/du-an/${slug}/` })), null, 2));
-write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${["/", ...projects.map(p => `/du-an/${p.slug}/`)].map(u => `  <url><loc>${site.domain}${u}</loc></url>`).join("\n")}\n</urlset>\n`);
+write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${["/", "/tuyen-dung-ctv/", ...projects.map(p => `/du-an/${p.slug}/`)].map(u => `  <url><loc>${site.domain}${u}</loc></url>`).join("\n")}\n</urlset>\n`);
 write("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.domain}/sitemap.xml\n`);
 console.log(`✔ Đã tạo trang tổng + ${projects.length} landing page → dist/`);
