@@ -120,6 +120,11 @@ function portal() {
   </div>
 </header>
 <main class="wrap">
+  <a href="/vinh-danh/1-tuan-4-vu-chot/" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:24px 0;padding:16px 20px;border-radius:16px;background:#A3131A;color:#FFF6E6;text-decoration:none">
+    <img src="/vinh-danh/1-tuan-4-vu-chot/assets/vinh-danh-trang.jpg" alt="" width="64" height="64" style="width:64px;height:64px;border-radius:12px;object-fit:cover;border:2px solid #F2C14E">
+    <span style="flex:1 1 240px"><b style="display:block;color:#F2C14E;font-size:13px;letter-spacing:.1em">VINH DANH · SỔ ĐỎ HUẾ</b><span style="font-size:18px;font-weight:800">1 tuần 4 vụ chốt – Chúc mừng Chuyên gia Trang!</span></span>
+    <span style="background:#F2C14E;color:#3E0609;font-weight:800;padding:10px 18px;border-radius:999px">Xem ngay →</span>
+  </a>
   <section class="filters" aria-label="Bộ lọc">
     <input id="q" type="search" placeholder="Tìm theo tên dự án, khu vực…">
     <select id="fType"><option value="">Tất cả loại hình</option>${opt(uniq(p => p.type))}</select>
