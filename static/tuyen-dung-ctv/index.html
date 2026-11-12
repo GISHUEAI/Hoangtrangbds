@@ -35,7 +35,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none}
 .wrap{width:min(1160px,92%);margin-inline:auto}
 .serif{font-family:"Playfair Display",Georgia,serif}
@@ -73,7 +73,7 @@ nav a{opacity:.85}nav a:hover{opacity:1;color:var(--gold-2)}
 .hero p.lead b{color:#fff}
 .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
 .hero-visual{position:relative}
-.hero-visual .poster{border-radius:22px;box-shadow:0 40px 80px -30px rgba(0,0,0,.7);border:1px solid rgba(255,255,255,.15);transform:rotate(1.5deg)}
+.hero-visual .poster{border-radius:22px;box-shadow:0 40px 80px -30px rgba(0,0,0,.7);border:1px solid rgba(255,255,255,.15);width:100%;height:auto;aspect-ratio:1199/1312;object-fit:contain}
 .hero-visual .badge{position:absolute;left:-28px;bottom:-26px;display:flex;align-items:center;gap:12px;background:#fff;color:var(--navy);padding:12px 18px 12px 12px;border-radius:999px;box-shadow:0 20px 40px -16px rgba(0,0,0,.5)}
 .hero-visual .badge img{width:52px;height:52px;border-radius:50%}
 .hero-visual .badge b{display:block;font-size:15px}
@@ -314,10 +314,6 @@ footer a{color:var(--gold-2)}
     </div>
     <div class="hero-visual">
       <img class="poster" src="img/poster-tuyen-ctv.jpg" alt="Poster tuyển 20 cộng tác viên bán nhà ở TP. Huế – liên hệ Trang 0886 101 088" width="960" height="1050">
-      <div class="badge">
-        <img src="img/hoang-trang-avatar.jpg" alt="">
-        <div><b>Gặp Trang</b><span>Hotline / Zalo 0886 101 088</span></div>
-      </div>
     </div>
   </div>
 </div>
