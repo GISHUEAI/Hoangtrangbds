@@ -171,7 +171,7 @@ function card(p) {
     <h3>${esc(p.name)}</h3>
     <p class="loc">📍 ${esc([p.location?.district, p.location?.city].filter(Boolean).join(", "))}</p>
     <p class="tag">${esc(p.tagline || "")}</p>
-    <div class="meta"><span>${p.priceFrom ? "Từ " : "Giá: "}<b>${esc(fmtPrice(p))}</b></span><span>${esc(fmtArea(p))}</span></div>
+    <div class="meta"><span>${p.priceFrom && !p.priceExact ? "Từ " : "Giá: "}<b>${esc(fmtPrice(p))}</b></span><span>${esc(fmtArea(p))}</span></div>
   </div>
 </a>`;
 }

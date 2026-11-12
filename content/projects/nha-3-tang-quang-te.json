@@ -1,0 +1,18 @@
+{
+  "slug": "nha-3-tang-quang-te",
+  "order": 2,
+  "featured": true,
+  "published": true,
+  "customPage": true,
+  "name": "Nhà 3 tầng kiệt 82 Quảng Tế",
+  "tagline": "Kiệt ô tô yên tĩnh · 4 phòng ngủ · Sổ hồng hoàn công",
+  "type": "Nhà phố",
+  "status": "Đang mở bán",
+  "location": { "district": "Quảng Tế", "city": "Huế", "address": "Kiệt ô tô 82 Quảng Tế, TP Huế", "lat": 16.44243, "lng": 107.57478 },
+  "priceFrom": 3.36,
+  "priceExact": true,
+  "priceUnit": "tỷ",
+  "areaFrom": 100,
+  "areaTo": 100,
+  "cover": "/du-an/nha-3-tang-quang-te/assets/phong-khach-1.jpg"
+}
