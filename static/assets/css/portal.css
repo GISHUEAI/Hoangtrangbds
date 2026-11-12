@@ -20,3 +20,49 @@
 .meta b{color:var(--blue);font-size:1.05rem}
 .empty{text-align:center;color:var(--muted);padding:40px}
 @media(max-width:820px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}.stats{gap:22px}}
+
+/* ===== Trang chủ & các trang mục ===== */
+.hero{padding-bottom:70px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.hsec{padding:64px 0}.hsec.alt{background:#fff}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:26px;flex-wrap:wrap}
+.sec-head h2{margin:0;font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.2}
+.more{color:var(--blue);font-weight:700;text-decoration:none;white-space:nowrap}
+.phero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:50px 0 90px}
+.phero h1{margin:0 0 10px;font-size:clamp(1.8rem,4vw,2.6rem)}.phero p{color:#d6dbff;max-width:720px;margin:0}
+.phero+main .ngrid,.phero+main .jgrid,.phero+main .chips{margin-top:-50px}
+.phero+main .chips+.ngrid{margin-top:20px}
+.ngrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.ncard{background:#fff;border-radius:var(--r);overflow:hidden;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,60,.07);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.ncard:hover,.jcard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,60,.15)}
+.ncard-img{height:200px;background-size:cover;background-position:center top;position:relative}
+.chip{position:absolute;top:12px;left:12px;background:var(--blue);color:#fff;font-size:.78rem;font-weight:700;padding:4px 12px;border-radius:999px}
+.ncard-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.ncard time{color:var(--muted);font-size:.85rem}.ncard h3{margin:4px 0 8px;font-size:1.1rem;line-height:1.35}
+.ncard p{margin:0 0 12px;font-size:.93rem;color:#444c5c;flex:1}.read{color:var(--blue);font-weight:700;font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chips button{border:1px solid var(--line);background:#fff;padding:9px 16px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer}
+.chips button.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.jgrid{display:grid;gap:20px}
+.jcard{display:grid;grid-template-columns:260px 1fr;background:#fff;border-radius:var(--r);overflow:hidden;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,60,.07);transition:transform .2s,box-shadow .2s;border-left:5px solid var(--blue)}
+.jcard img{width:100%;height:100%;max-height:300px;object-fit:cover;object-position:top}
+.jcard-body{padding:20px 24px}.jcard h3{margin:10px 0 8px;font-size:1.25rem}
+.jcard p{margin:10px 0 16px;color:#444c5c}
+.jmeta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 18px;color:#2b3345;font-size:.93rem}
+.jmeta.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:18px 0}
+.jmeta.big li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:10px;padding:10px 14px}
+.jmeta.big span{display:block;font-size:.82rem;color:var(--muted)}
+.jcard:not(:has(img)){grid-template-columns:1fr}
+.apply{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;margin:30px 0}
+.apply h3{margin:0 0 6px}.apply p{margin:0 0 16px;color:#444c5c}.apply.wide{text-align:center}
+.article{max-width:820px;padding-top:28px}
+.crumbs{font-size:.9rem;color:var(--muted)}.crumbs a{color:var(--blue);text-decoration:none}
+.article h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.25;margin:12px 0 6px}
+.art-meta{color:var(--muted);margin:0 0 18px}
+.art-cover{border-radius:var(--r);width:100%;margin:10px 0 24px}
+.prose{font-size:1.06rem}.prose h2{margin:30px 0 10px;font-size:1.45rem}.prose h3{margin:24px 0 8px}
+.prose img{border-radius:12px;margin:10px 0}.prose blockquote{margin:20px 0;padding:12px 20px;border-left:4px solid var(--gold);background:#fff;font-style:italic}
+.prose a{color:var(--blue)}
+.more-list{margin-top:40px;border-top:1px solid var(--line);padding-top:24px}
+@media(max-width:700px){.jcard{grid-template-columns:1fr}.jcard img{max-height:220px}}
+.prose figure{margin:16px 0}

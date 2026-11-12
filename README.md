@@ -23,6 +23,20 @@ vercel.json              ← Cấu hình Vercel
    Vercel tự đọc `vercel.json`, không cần chỉnh gì.
 3. Sửa `domain` trong `content/site.json` thành địa chỉ Vercel cấp (hoặc tên miền riêng), để ảnh xem trước khi chia sẻ link lên Zalo/Facebook hiển thị đúng.
 
+## Cấu trúc trang
+| Menu | Đường dẫn | Nội dung lấy từ |
+|---|---|---|
+| Trang chủ | `/` | Tự gom: sản phẩm nổi bật, 3 tin mới nhất, 3 vị trí tuyển dụng |
+| Sản phẩm | `/san-pham/` | `content/projects/*.json` (mỗi sản phẩm có landing page `/du-an/<slug>/`) |
+| Tin tức | `/tin-tuc/` | `content/tin-tuc/*.md` |
+| Tuyển dụng | `/tuyen-dung/` | `content/tuyen-dung/*.md` |
+
+## Đăng tin tức / tin tuyển dụng
+1. Sao chép `content/tin-tuc/_mau.md` (hoặc `content/tuyen-dung/_mau.md`) thành tệp mới, ví dụ `mo-ban-nha-thuy-xuan.md`. Tên tệp chính là đường dẫn bài viết.
+2. Điền phần đầu tệp (title, date, category, cover, summary…) rồi viết nội dung bên dưới: `## Tiêu đề`, `- gạch đầu dòng`, `**đậm**`, `![ảnh](/images/...)`.
+3. Bài là trang thiết kế riêng (như trang vinh danh, trang tuyển CTV): thêm dòng `url: /duong-dan/`, thẻ bài sẽ dẫn thẳng tới trang đó.
+4. Muốn ẩn bài: thêm `published: false`. Tin tuyển dụng hết hạn: đổi `status: Đã đóng`.
+
 ## Thêm một dự án mới (khoảng 10 phút)
 1. Sao chép `content/projects/_mau.json` → `content/projects/ten-du-an.json`, điền thông tin.
 2. Tải ảnh vào `static/images/ten-du-an/` (ảnh bìa nên là JPG ngang 1600×900, dưới 400 KB).
